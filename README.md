@@ -1,0 +1,1 @@
+Usé state para el comportamiento de SuperPlomero porque cambia segun su estado: pequeño, grande o fuego y para enemigos y objetos especiales use herencia y polimorfismo para que se puedan agregar nuevos tipos sin modificar nada. 
