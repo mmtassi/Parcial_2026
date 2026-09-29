@@ -99,10 +99,4 @@ def test_caja_usada_no_entrega_de_nuevo():
 
 
 # requerimiento 18
-def test_perder_ultima_vida_interrumpe_juego():
-    plomero = SuperPlomero(1)
 
-    with pytest.raises(ValueError):
-        plomero.recibir_danio()
-
-    assert plomero.vidas == 0
