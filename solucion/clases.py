@@ -31,8 +31,6 @@ class SuperPlomero:
     def perder_vida(self):
         self.vidas -= 1
 
-        if self.vidas == 0:
-            raise ValueError("Juego terminado")
 
 
 class EstadoPlomero(ABC):
